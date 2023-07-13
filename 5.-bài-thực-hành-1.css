@@ -1,0 +1,144 @@
+
+/* .section-bottom{
+    display: flex;
+}
+
+.section-bottom .section-bottom__article--left{
+    display: inline-block;
+    width: 50%;
+}
+
+.section-bottom .section-bottom__article--right{
+    display: inline-block;
+    width: 50%;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Arial, sans-serif;
+}
+:root{
+    --white-color:#ffffff;
+    --blu-color: #5b9bd5;
+    --pink-color:#da97de;
+    --black-color:#404143;
+    --orange-color:#eee6e7;
+
+}
+
+.div__section-top{    
+}
+.div__section-buttom{
+  display: flex;  
+  margin-top: 20px;
+}
+.div__section-buttom__section-buttom--left{
+    display: inline-block;
+    width: 20rem;
+    margin-right: 20px;
+}
+.div__section-buttom__section-buttom--right{
+    display: inline-block;
+    width: 20rem;
+}
+.div__section-buttom__section-buttom--left div{
+    width: 100%;
+    height: 10rem;
+    background-color: var(--blu-color);
+  
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Climate{
+    display: flex;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Climate__div--Left {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    font-size: 50px;
+    text-align: center; 
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Climate__div--right{
+    display: inline-block;
+    width: 20rem;
+    height: 4rem;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Climate__div--right h4{
+    font-variant: small-caps ;
+
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Comprehensive {
+    display: flex;
+    margin-top: 20px;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Comprehensive__div--left{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    font-size: 50px;
+    text-align: center; 
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Comprehensive__div--right{
+    display: inline-block;
+    width: 20rem;
+    height: 4rem;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Comprehensive__div--right h4{
+    font-variant: small-caps;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Economic {
+    display: flex;
+    margin-top: 20px;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Economic__div--left{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    font-size: 50px;
+    text-align: center; 
+    margin-right: 20px;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Comprehensive__div--right{
+    display: inline-block;
+    width: 20rem;
+    height: 4rem;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Comprehensive__div--right h4{
+    font-variant: small-caps;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Health {
+    display: flex;
+    margin-top: 20px;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Health__div--left{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    font-size: 50px;
+    text-align: center; 
+    margin-right: 20px;
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Health__div--right{
+    display: inline-block;
+    width: 20rem;
+    height: 4rem;
+    font-size: 15px;
+    margin-left:20px;    
+}
+.div__section-buttom__section-buttom--right__section-buttom--right--Health__div--right h4{
+    font-variant: small-caps;
+}
